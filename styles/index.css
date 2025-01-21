@@ -570,3 +570,42 @@
     text-align: center;
     margin-top: 20px;
 }
+
+/* foter style */
+.footer {
+    width: 1707px;
+    height: 226px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 160px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.foot-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.footer-image {
+    height: 24px;
+    width: 26px;
+}
+
+.horaizontal-line {
+    width: 1122px;
+    height: 0;
+    margin-bottom: 30px;
+}
