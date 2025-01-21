@@ -18,19 +18,61 @@
     cursor: pointer;
     transition: 0.8s;
 }
-.sheared-btn:hover{
-    background-color:  darkgreen;
+
+.sheared-btn:hover {
+    background-color: darkgreen;
     color: red;
 }
+
+.card-icon {
+    height: 64px;
+    width: 64px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.card-descp {
+    width: 346.67px;
+    height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card-btn {
+    width: 130px;
+    height: 41px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
 
 /* banner style */
 .banner {
     width: 1280px;
-    height: 5600px;
+    height: 560px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 80px;
-
 }
 
 .banner-content {
@@ -66,4 +108,151 @@
 .banner-hero-pic {
     width: 474.03px;
     height: 400px;
+}
+
+/* section-1-design */
+.section-1 {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 80px;
+    width: 1280px;
+    height: 765px
+}
+
+.section-1-content {
+    padding: 0;
+}
+
+.all-the-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+
+}
+
+.section-1-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.section-1-description {
+    width: 1280px;
+    height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.card-1 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.card-2 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+
+.card-3 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+.card-btn-1 {
+    background: rgb(84, 144, 245);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.card-btn-1:hover
+{
+    background-color: #ADA991;
+    color:black;
+}
+
+.card-btn-2 {
+    background: rgb(9, 161, 92);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.card-btn-2:hover
+{
+    background-color: #A94A4A;
+    color: black;
+}
+.card-btn-3 {
+    background: rgb(255, 194, 57);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.card-btn-3:hover
+{
+    background-color: #574964;
+    color: black;
+}
+
+.coat {
+    width: 1280px;
+    height: 256px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 25px 32px;
+}
+
+.the-quote {
+    width: 1232px;
+    height: 96px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.speaker {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.designation {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
 }
